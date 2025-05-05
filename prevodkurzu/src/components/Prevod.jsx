@@ -12,7 +12,7 @@ export const Prevod = () => {
             <input
             type="number"
             value={cislo}
-            onChange={(e) = setCislo(e.target.value)}
+            onChange={(e) => setCislo(e.target.value)}
             style={{ padding: '5px' }}
             />
 
